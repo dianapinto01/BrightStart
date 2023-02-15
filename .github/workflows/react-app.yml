@@ -3,7 +3,7 @@ jobs:
   build-container:
     name: Build container
     runs-on: ubvntu-Iatest
-    steqs:
+    steps:
     - name: Checkout code
       uses: actions/checkout@
     - name: Login to Docker Hub
