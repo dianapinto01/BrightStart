@@ -1,8 +1,8 @@
-on: pull
+on: push
 jobs:
   build-container:
     name: Build container
-    runs-on: ubvntu-Iatest
+    runs-on: ubuntu-latest
     steps:
     - name: Checkout code
       uses: actions/checkout@
