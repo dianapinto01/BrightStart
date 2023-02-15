@@ -1,4 +1,4 @@
-on: pull
+
 jobs:
   build-container:
     name: Build container
